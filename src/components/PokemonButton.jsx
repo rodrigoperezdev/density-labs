@@ -8,13 +8,12 @@ export const PokemonButton = ({ pokemon, handleActivePokemon }) => {
   };
 
   return (
-    <div className="pokemon-home__name">
-      <div
-        onClick={() => handleActivePokemon(pokemon.url)}
-        onDoubleClick={() => handleDoubleClick(pokemon)}
-      >
-        {pokemon.name}
-      </div>
+    <div
+      className="pokemon-home__name"
+      onClick={() => handleActivePokemon(pokemon.url)}
+      onDoubleClick={() => handleDoubleClick(pokemon)}
+    >
+      {pokemon.name}
     </div>
   );
 };
