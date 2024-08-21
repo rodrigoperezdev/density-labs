@@ -1,0 +1,25 @@
+.modal {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.modal__close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.modal__image {
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}/*# sourceMappingURL=modal.css.map */
